@@ -1,5 +1,5 @@
 import React from "react";
-import Weather from "./weather";
+import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
