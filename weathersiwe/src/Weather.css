@@ -25,12 +25,13 @@
   list-style: none;
 }
 
-.weather img {
+.weather canvas {
   height: 64px;
   width: 64px;
   margin-right: 10px;
   display: inline-block;
 }
+
 .weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
