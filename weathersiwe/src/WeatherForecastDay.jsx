@@ -3,7 +3,6 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherForecastDay(props) {
   console.log(props.data);
 
-  // Check if props.data is defined and has necessary properties
   if (!props.data || !props.data.temperature || !props.data.dt) {
     return <div>Loading...</div>;
   }
@@ -20,10 +19,10 @@ export default function WeatherForecastDay(props) {
 
   function day() {
     let date = new Date(props.data.dt * 1000);
-    let dayIndex = date.getDay(); // This gets the index of the day
+    let dayIndex = date.getDay();
     let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-    return days[dayIndex]; // Use dayIndex to access the correct day name
+    return days[dayIndex];
   }
 
   return (
