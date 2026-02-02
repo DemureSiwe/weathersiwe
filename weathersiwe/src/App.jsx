@@ -17,7 +17,7 @@ export default function App() {
           >
             Github
           </a>{" "}
-          by Busisiwe Tsetseng and hosted on
+          by Busisiwe Tsetseng and hosted on{" "}
           <a href="https://reactweather-siwe.netlify.app/" target="blank">
             Netlify
           </a>
