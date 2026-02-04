@@ -1,9 +1,18 @@
-import React from "react";
 import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
+import weathersiwebg from "./assets/Image/weathersiwebg.jpg";
 import "./App.css";
 
 export default function App() {
+  const coverStyle = {
+    backgroundImage: `url(${weathersiwebg})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    height: "100px",
+    width: "100 %",
+    opacity,
+  };
+
   return (
     <div className="App">
       <div className="container">
