@@ -10,6 +10,8 @@ export default function App() {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     height: "100vh",
+    display: "flex",
+    alignItems: "center",
   };
 
   return (
