@@ -11,6 +11,7 @@ export default function App() {
     backgroundRepeat: "no-repeat",
     height: "100vh",
     display: "flex",
+    justifyContent: "center",
     alignItems: "center",
   };
 
